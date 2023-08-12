@@ -1,0 +1,59 @@
+<form method="post">
+    {% csrf_token %}
+    <input type="text" name="username" id="">
+    <label for="username">Username</label>
+    <input type="password" name="password" id="">
+    <label for="password">Password</label>
+    <input type="text" name="seller_pan" id="">
+    <label for="password">Seller Pan</label>
+    <input type="text" name="buyer_pan" id="">
+    <label for="password">Buyer Pan</label>
+    <input type="text" name="fiscal_year" id="">
+    <label for="password">Fiscal Year</label>
+    <input type="text" name="buyer_name" id="">
+    <label for="password">Buyer Name</label>
+    <input type="text" name="invoice_number" id="">
+    <label for="password">Invoice Number</label>
+    <input type="text" name="invoice_date" id="">
+    <label for="password">Invoice Date</label>
+    <input type="text" name="total_sales" id="">
+    <label for="password">Total Sales</label>
+    <input type="text" name="taxable_sales_vat" id="">
+    <label for="password">Taxable Sales Vat</label>
+    <input type="text" name="vat" id="">
+    <label for="password">Vat</label>
+    <input type="text" name="excise_amount" id="">
+    <label for="password">Excise Amount</label>
+    <input type="text" name="excise" id="">
+    <label for="password">Excise</label>
+    <input type="text" name="taxable_sales_hst" id="">
+    <label for="password">Taxable Sales Hst</label>
+    <input type="text" name="hst" id="">
+    <label for="password">Hst</label>
+    <input type="text" name="amount_for_esf" id="">
+    <label for="password">Amount For Esf</label>
+    <input type="text" name="esf" id="">
+    <label for="password">Esf</label>
+    <input type="text" name="amount_for_esf" id="">
+    <label for="password">Amount For Esf</label>
+    <input type="text" name="export_sales" id="">
+    <label for="password">Export Sales</label>
+    <input type="text" name="tax_exempted_sales" id="">
+    <label for="password">Tax Exempted Sales</label>
+    <input type="text" name="isrealtime" id="">
+    <label for="password">Isrealtime</label>
+    <input type="submit" value="Submit" id="">
+</form>
+
+<style>
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    input {
+        margin: 10px 0;
+    }
+</style>
